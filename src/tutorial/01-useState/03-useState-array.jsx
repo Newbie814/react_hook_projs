@@ -10,6 +10,7 @@ const UseStateArray = () => {
 
   return (
     <>
+      <h1>UseState Array Example</h1>
       {people.map((person) => {
         const { id, name } = person;
         return (
