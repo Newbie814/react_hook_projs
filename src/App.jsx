@@ -5,7 +5,8 @@
 // import UseStateGotcha1 from './tutorial/01-useState/UseStateGotcha1';
 // import CodeExample from './tutorial/02-useEffect/01-code-example';
 // import UseEffectBasics from './tutorial/02-useEffect/02-useEffect-basics';
-import MultipleEffects from './tutorial/02-useEffect/03-multiple-effects';
+// import MultipleEffects from './tutorial/02-useEffect/03-multiple-effects';
+import FetchData from './tutorial/02-useEffect/04-fetch-data';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <UseStateGotcha1 /> */}
       {/* <CodeExample /> */}
       {/* <UseEffectBasics /> */}
-      <MultipleEffects />
+      {/* <MultipleEffects /> */}
+      <FetchData />
     </div>
   );
 }
