@@ -10,7 +10,7 @@ const Example = () => {
   // if (condition) {
   //   return <h2>Hello There</h2>;
   // }
-  // // this will also fail
+  // // this will also fail -- it's after conditional return
   // useEffect(() => {
   //   console.log('hello there');
   // }, []);

@@ -33,14 +33,14 @@ const MultipleReturnsFetchData = () => {
   if (isError) {
     return <h2>Error...</h2>;
   }
-  // const { login, avatar_url, html_url, bio } = user;
+  const { login, avatar_url, html_url, bio, company } = user;
   return (
     <>
-      <img src={user.avatar_url} alt={user.login} />
-      <h2>{user.login}</h2>
-      <h3>Works at: {user.company}</h3>
-      <a href={user.html_url}>profile</a>
-      <p>{user.bio}</p>
+      <img src={avatar_url} alt={login} />
+      <h2>{login}</h2>
+      <h3>Works at: {company}</h3>
+      <a href={html_url}>profile</a>
+      <p>{bio}</p>
     </>
   );
 };
