@@ -10,7 +10,8 @@
 // import MultipleReturnsBasics from './tutorial/03-conditional-rendering/01-multiple-returns-basics';
 // import MultipleReturnsFetchData from './tutorial/03-conditional-rendering/02-multiple-returns-fetch-data';
 // import ShortCircuitOverview from './tutorial/03-conditional-rendering/04-short-circuit-overview';
-import ShortCircuitExamples from './tutorial/03-conditional-rendering/05-short-circuit-example';
+// import ShortCircuitExamples from './tutorial/03-conditional-rendering/05-short-circuit-example';
+import ToggleChallenge from './tutorial/03-conditional-rendering/06-toggle-challenge';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       {/* <MultipleReturnsBasics /> */}
       {/* <MultipleReturnsFetchData /> */}
       {/* <ShortCircuitOverview /> */}
-      <ShortCircuitExamples />
+      {/* <ShortCircuitExamples /> */}
+      <ToggleChallenge />
     </div>
   );
 }

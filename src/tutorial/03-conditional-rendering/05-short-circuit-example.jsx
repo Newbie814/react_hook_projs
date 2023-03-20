@@ -23,8 +23,48 @@ const ShortCircuitExamples = () => {
         )}
         {/* && and operand is often used to conditionally render elements */}
         {/*In above example, if text is there(true), the right of the operand will be returned(element)  */}
+        {/* {!text && (
+          <div>
+            <h2>whatever whatever</h2>
+            <h2>{name}</h2>
+          </div>
+        )} */}
+        {/* ! makes it the opposite if text is not there(false), the right of the operand will be returned(element) */}
+        {user && <SomeComponent name={user.name} />}
+        <h2 style={{ margin: '1rem 0' }}>Ternary Operator</h2>
+        {/* below is conditional rendering with ternary operator */}
+        <button className='btn'>{isEditing ? 'edit' : 'add'}</button>
+        {user ? (
+          <TernaryTrue name={user.name} />
+        ) : (
+          <TernaryFalse name={user.name} />
+        )}
       </div>
     </>
+  );
+};
+
+const SomeComponent = ({ name }) => {
+  return (
+    <div>
+      <h2>{name}</h2>
+    </div>
+  );
+};
+
+const TernaryTrue = ({ name }) => {
+  return (
+    <div>
+      <h2>Ternary condition was evelauted to true, {name}.</h2>
+    </div>
+  );
+};
+
+const TernaryFalse = ({ name }) => {
+  return (
+    <div>
+      <h2>Ternary condition was evelauted to false, {name}.</h2>
+    </div>
   );
 };
 
