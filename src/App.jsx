@@ -12,6 +12,7 @@
 // import ShortCircuitOverview from './tutorial/03-conditional-rendering/04-short-circuit-overview';
 // import ShortCircuitExamples from './tutorial/03-conditional-rendering/05-short-circuit-example';
 import ToggleChallenge from './tutorial/03-conditional-rendering/06-toggle-challenge';
+import UserChallenge from './tutorial/03-conditional-rendering/07-user-challenge';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       {/* <ShortCircuitOverview /> */}
       {/* <ShortCircuitExamples /> */}
       <ToggleChallenge />
+      <UserChallenge />
     </div>
   );
 }

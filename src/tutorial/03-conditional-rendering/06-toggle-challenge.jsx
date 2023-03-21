@@ -15,10 +15,11 @@ const ToggleChallenge = () => {
 
 const ToggledComponent = () => {
   return (
-    <div>
+    <div className='alert alert-danger'>
       <h1>Matthew Woodard</h1>
       <h2>Software Engineer</h2>
       <p>Partner of Sandra. Father of Liam and Connor.</p>
+      <h6>made you look.</h6>
     </div>
   );
 };
