@@ -11,8 +11,9 @@
 // import MultipleReturnsFetchData from './tutorial/03-conditional-rendering/02-multiple-returns-fetch-data';
 // import ShortCircuitOverview from './tutorial/03-conditional-rendering/04-short-circuit-overview';
 // import ShortCircuitExamples from './tutorial/03-conditional-rendering/05-short-circuit-example';
-import ToggleChallenge from './tutorial/03-conditional-rendering/06-toggle-challenge';
-import UserChallenge from './tutorial/03-conditional-rendering/07-user-challenge';
+// import ToggleChallenge from './tutorial/03-conditional-rendering/06-toggle-challenge';
+// import UserChallenge from './tutorial/03-conditional-rendering/07-user-challenge';
+import CleanupFunction from './tutorial/02-useEffect/05-cleanup-function';
 
 function App() {
   return (
@@ -30,8 +31,9 @@ function App() {
       {/* <MultipleReturnsFetchData /> */}
       {/* <ShortCircuitOverview /> */}
       {/* <ShortCircuitExamples /> */}
-      <ToggleChallenge />
-      <UserChallenge />
+      {/* <ToggleChallenge /> */}
+      {/* <UserChallenge /> */}
+      <CleanupFunction />
     </div>
   );
 }
