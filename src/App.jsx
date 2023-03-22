@@ -14,7 +14,9 @@
 // import ToggleChallenge from './tutorial/03-conditional-rendering/06-toggle-challenge';
 // import UserChallenge from './tutorial/03-conditional-rendering/07-user-challenge';
 // import CleanupFunction from './tutorial/02-useEffect/05-cleanup-function';
-import List from './tutorial/05-leverage-javascript/List';
+// import List from './tutorial/05-leverage-javascript/List';
+
+import ControlledInputs from './tutorial/06-forms/01-controlled-inputs';
 
 function App() {
   return (
@@ -35,7 +37,8 @@ function App() {
       {/* <ToggleChallenge /> */}
       {/* <UserChallenge /> */}
       {/* <CleanupFunction /> */}
-      <List />
+      {/* <List /> */}
+      <ControlledInputs />
     </div>
   );
 }
