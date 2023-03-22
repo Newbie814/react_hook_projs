@@ -13,7 +13,8 @@
 // import ShortCircuitExamples from './tutorial/03-conditional-rendering/05-short-circuit-example';
 // import ToggleChallenge from './tutorial/03-conditional-rendering/06-toggle-challenge';
 // import UserChallenge from './tutorial/03-conditional-rendering/07-user-challenge';
-import CleanupFunction from './tutorial/02-useEffect/05-cleanup-function';
+// import CleanupFunction from './tutorial/02-useEffect/05-cleanup-function';
+import List from './tutorial/05-leverage-javascript/List';
 
 function App() {
   return (
@@ -33,7 +34,8 @@ function App() {
       {/* <ShortCircuitExamples /> */}
       {/* <ToggleChallenge /> */}
       {/* <UserChallenge /> */}
-      <CleanupFunction />
+      {/* <CleanupFunction /> */}
+      <List />
     </div>
   );
 }

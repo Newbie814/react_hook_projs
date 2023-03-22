@@ -11,6 +11,7 @@ export const people = [
   {
     id: 3,
     name: 'oliver',
+    nickName: 'The Great',
     images: [
       {
         small: {
@@ -19,5 +20,5 @@ export const people = [
       },
     ],
   },
-  { id: 4, name: 'david' },
+  { id: 4, name: 'david', sister: 'Leah' },
 ];
