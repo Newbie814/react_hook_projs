@@ -17,7 +17,8 @@
 // import List from './tutorial/05-leverage-javascript/List';
 
 // import ControlledInputs from './tutorial/06-forms/01-controlled-inputs';
-import UserChallenge from './tutorial/06-forms/02-user-challenge';
+// import UserChallenge from './tutorial/06-forms/02-user-challenge';
+import MultipleInputs from './tutorial/06-forms/03-multiple-inputs';
 
 function App() {
   return (
@@ -40,7 +41,8 @@ function App() {
       {/* <CleanupFunction /> */}
       {/* <List /> */}
       {/* <ControlledInputs /> */}
-      <UserChallenge />
+      {/* <UserChallenge /> */}
+      <MultipleInputs />
     </div>
   );
 }
