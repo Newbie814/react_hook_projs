@@ -16,6 +16,7 @@ const UserChallenge = () => {
     const newUser = { id: fakeId, name };
     const updatedUsers = [...users, newUser];
     setUsers(updatedUsers);
+    setName('');
   };
   const handleRemoveUser = (id) => {
     const updatedUsers = users.filter((user) => user.id !== id);
@@ -49,7 +50,11 @@ const UserChallenge = () => {
         return (
           <div key={id} className='item'>
             <h4>{name}</h4>
-            <button type='button' onClick={() => handleRemoveUser(id)}>
+            <button
+              type='button'
+              onClick={() => handleRemoveUser(id)}
+              className='btn'
+            >
               Remove User
             </button>
           </div>
