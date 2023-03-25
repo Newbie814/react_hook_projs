@@ -23,11 +23,13 @@
 // import UncontrolledInputs from './tutorial/06-forms/05-form-data';
 // import UseRefBasics from './tutorial/07-useRef/01-userRef-basics';
 // import ToggleExample from './tutorial/08-custom-hooks/01-toggle';
-import FetchData from './tutorial/08-custom-hooks/02-fetch-data';
+// import FetchData from './tutorial/08-custom-hooks/02-fetch-data';
+import Navbar from './tutorial/09-context-api/components/Navbar';
 
 function App() {
   return (
-    <div className='container'>
+    <div>
+      {/* <div className='container'> */}
       {/* <UseStateBasics />
        <UseStateArray /> */}
       {/* <UseStateObject /> */}
@@ -52,7 +54,8 @@ function App() {
       {/* <UncontrolledInputs /> */}
       {/* <UseRefBasics /> */}
       {/* <ToggleExample /> */}
-      <FetchData />
+      {/* <FetchData /> */}
+      <Navbar />
     </div>
   );
 }
