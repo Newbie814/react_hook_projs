@@ -21,7 +21,9 @@
 // import MultipleInputs from './tutorial/06-forms/03-multiple-inputs';
 // import OtherInputs from './tutorial/06-forms/04-other-inputs';
 // import UncontrolledInputs from './tutorial/06-forms/05-form-data';
-import UseRefBasics from './tutorial/07-useRef/01-userRef-basics';
+// import UseRefBasics from './tutorial/07-useRef/01-userRef-basics';
+// import ToggleExample from './tutorial/08-custom-hooks/01-toggle';
+import FetchData from './tutorial/08-custom-hooks/02-fetch-data';
 
 function App() {
   return (
@@ -48,7 +50,9 @@ function App() {
       {/* <MultipleInputs /> */}
       {/* <OtherInputs /> */}
       {/* <UncontrolledInputs /> */}
-      <UseRefBasics />
+      {/* <UseRefBasics /> */}
+      {/* <ToggleExample /> */}
+      <FetchData />
     </div>
   );
 }
