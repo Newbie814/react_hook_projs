@@ -1,17 +1,10 @@
 const UserContainer = ({ name, logout }) => {
   return (
-    <div className='user-container'>
-      {name ? (
-        <>
-          <p>Hello There, {name.name.toUpperCase()}</p>
-          <button type='button' className='btn' onClick={logout}>
-            logout
-          </button>
-        </>
-      ) : (
-        <p>Please Login</p>
-      )}
-    </div>
+    <>
+      <h2>UserContainer</h2>
+      <h3>{name.name}</h3>
+      {name ? logout() : <h3>please login</h3>}
+    </>
   );
 };
 export default UserContainer;

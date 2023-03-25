@@ -2,14 +2,18 @@ import { useState } from 'react';
 import NavLinks from './NavLinks';
 
 const Navbar = () => {
-  const [name, setName] = useState({ name: 'something' });
+  const [name, setName] = useState({ name: 'Matthew' });
 
   const handleLogout = () => {
     setName(null);
   };
 
   const ButtonComponent = () => {
-    return <button onClick={handleLogout}>Logout</button>;
+    return (
+      <button onClick={handleLogout} className='btn'>
+        Logout
+      </button>
+    );
   };
   return (
     <nav className='navbar'>
