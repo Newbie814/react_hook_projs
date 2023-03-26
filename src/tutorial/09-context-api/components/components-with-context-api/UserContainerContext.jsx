@@ -1,8 +1,7 @@
-import { useContext } from 'react';
-import { NavbarContextProv } from './contexts/navbarConProv';
+import { useAppContext } from './contexts/navbarConProv';
 
 const UserContainerContext = () => {
-  const { user, ButtonComponent } = useContext(NavbarContextProv);
+  const { user, ButtonComponent } = useAppContext();
   // return <h4>placeholder user container</h4>;
   return (
     <div className='user-container'>
