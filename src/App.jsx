@@ -29,7 +29,7 @@
 import ReducerBasics from './tutorial/10-useReducer/01-userReducer';
 function App() {
   return (
-    <div>
+    <div className='container'>
       {/* <div className='container'> */}
       {/* <UseStateBasics />
        <UseStateArray /> */}
