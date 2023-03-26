@@ -1,17 +1,15 @@
 const UserContainer = ({ name, logout }) => {
   return (
-    <>
-      <h2>UserContainer</h2>
-
+    <div className='user-container'>
       {name ? (
         <>
-          <h3>{name.name}</h3>
+          <p>{name.name}</p>
           {logout()}
         </>
       ) : (
         <h3>please login</h3>
       )}
-    </>
+    </div>
   );
 };
 export default UserContainer;
