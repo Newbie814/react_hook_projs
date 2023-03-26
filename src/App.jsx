@@ -25,7 +25,7 @@
 // import ToggleExample from './tutorial/08-custom-hooks/01-toggle';
 // import FetchData from './tutorial/08-custom-hooks/02-fetch-data';
 import Navbar from './tutorial/09-context-api/components/Navbar';
-
+import NavbarContext from './tutorial/09-context-api/components/components-with-context-api/NavbarContext';
 function App() {
   return (
     <div>
@@ -55,7 +55,8 @@ function App() {
       {/* <UseRefBasics /> */}
       {/* <ToggleExample /> */}
       {/* <FetchData /> */}
-      <Navbar />
+      {/* <Navbar /> */}
+      <NavbarContext />
     </div>
   );
 }
