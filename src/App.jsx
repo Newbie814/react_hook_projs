@@ -24,8 +24,9 @@
 // import UseRefBasics from './tutorial/07-useRef/01-userRef-basics';
 // import ToggleExample from './tutorial/08-custom-hooks/01-toggle';
 // import FetchData from './tutorial/08-custom-hooks/02-fetch-data';
-import Navbar from './tutorial/09-context-api/components/Navbar';
-import NavbarContext from './tutorial/09-context-api/components/components-with-context-api/NavbarContext';
+// import Navbar from './tutorial/09-context-api/components/Navbar';
+// import NavbarContext from './tutorial/09-context-api/components/components-with-context-api/NavbarContext';
+import ReducerBasics from './tutorial/10-useReducer/01-userReducer';
 function App() {
   return (
     <div>
@@ -33,8 +34,8 @@ function App() {
       {/* <UseStateBasics />
        <UseStateArray /> */}
       {/* <UseStateObject /> */}
-      {/* <UseStateGotcha />
-      <UseStateGotcha1 /> */}
+      {/* <UseStateGotcha /> */}
+      {/* <UseStateGotcha1 /> */}
       {/* <CodeExample /> */}
       {/* <UseEffectBasics /> */}
       {/* <MultipleEffects /> */}
@@ -56,7 +57,8 @@ function App() {
       {/* <ToggleExample /> */}
       {/* <FetchData /> */}
       {/* <Navbar /> */}
-      <NavbarContext />
+      {/* <NavbarContext /> */}
+      <ReducerBasics />
     </div>
   );
 }
