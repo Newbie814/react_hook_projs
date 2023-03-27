@@ -27,7 +27,8 @@
 // import Navbar from './tutorial/09-context-api/components/Navbar';
 // import NavbarContext from './tutorial/09-context-api/components/components-with-context-api/NavbarContext';
 // import ReducerBasics from './tutorial/10-useReducer/01-userReducer';
-import LowerState from './tutorial/11-performance/01-lower-state';
+// import LowerState from './tutorial/11-performance/01-lower-state';
+import LowerStateChallenge from './tutorial/11-performance/02-lower-state-challenge';
 function App() {
   return (
     <div className='container'>
@@ -60,7 +61,8 @@ function App() {
       {/* <Navbar /> */}
       {/* <NavbarContext /> */}
       {/* <ReducerBasics /> */}
-      <LowerState />
+      {/* <LowerState /> */}
+      <LowerStateChallenge />
     </div>
   );
 }
