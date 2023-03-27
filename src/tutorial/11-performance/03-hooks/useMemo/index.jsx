@@ -1,6 +1,7 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useMemo } from 'react';
 import { data } from '../../../../data';
 import List from './List';
+import { slowFunction } from './slowfunction';
 const LowerState = () => {
   const [people, setPeople] = useState(data);
   const [count, setCount] = useState(0);
@@ -12,6 +13,9 @@ const LowerState = () => {
     },
     [people]
   );
+
+  const value = useMemo(slowFunction, []);
+  console.log(value);
 
   return (
     <section>
