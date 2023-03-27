@@ -29,7 +29,8 @@
 // import ReducerBasics from './tutorial/10-useReducer/01-userReducer';
 // import LowerState from './tutorial/11-performance/01-lower-state';
 // import LowerStateChallenge from './tutorial/11-performance/02-lower-state-challenge';
-import LowerState from './tutorial/11-performance/03-hooks';
+// import LowerState from './tutorial/11-performance/03-hooks';
+import LowerState from './tutorial/11-performance/03-hooks/useCallback';
 function App() {
   return (
     <div className='container'>
