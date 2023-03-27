@@ -26,7 +26,8 @@
 // import FetchData from './tutorial/08-custom-hooks/02-fetch-data';
 // import Navbar from './tutorial/09-context-api/components/Navbar';
 // import NavbarContext from './tutorial/09-context-api/components/components-with-context-api/NavbarContext';
-import ReducerBasics from './tutorial/10-useReducer/01-userReducer';
+// import ReducerBasics from './tutorial/10-useReducer/01-userReducer';
+import LowerState from './tutorial/11-performance/01-lower-state';
 function App() {
   return (
     <div className='container'>
@@ -58,7 +59,8 @@ function App() {
       {/* <FetchData /> */}
       {/* <Navbar /> */}
       {/* <NavbarContext /> */}
-      <ReducerBasics />
+      {/* <ReducerBasics /> */}
+      <LowerState />
     </div>
   );
 }
